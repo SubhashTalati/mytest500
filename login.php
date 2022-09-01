@@ -12,7 +12,7 @@ if(isset($_POST['submit']))
 
 	if($post_email=='' or $post_pass=='')
 	{
-		echo "Enter Something";
+		echo "Enter Something new for today";
 		exit();
 	}
 	else
@@ -26,7 +26,7 @@ if(isset($_POST['submit']))
 	if(mysql_num_rows($result)>0)
 	{
 		
-			echo "Login Success";
+			echo "Login Success Today";
 			
 	}
 	else
